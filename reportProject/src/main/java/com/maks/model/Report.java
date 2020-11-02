@@ -2,6 +2,7 @@ package com.maks.model;
 
 import java.math.BigDecimal;
 import java.time.Duration;
+import java.util.ArrayList;
 import java.util.List;
 
 public class Report {
@@ -9,8 +10,8 @@ public class Report {
 
     private List<ReportEntry> entries;
 
-    public Report(List<ReportEntry> entries) {
-        this.entries = entries;
+    public Report() {
+        this.entries = new ArrayList<>();
     }
 
     public void setEntries(List<ReportEntry> entries) {

@@ -2,6 +2,6 @@ package com.maks.service;
 
 import com.maks.model.Report;
 
-public interface ReportGeneratorService {
+public interface ReportGenerationService {
     Report generateReport();
 }
